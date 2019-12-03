@@ -4,7 +4,6 @@ import { stripePublishableKey, stripeSupportedCountries } from './stripe-config'
 import { currencyConfiguration } from './currency-config';
 
 const env = process.env.REACT_APP_ENV;
-const env = process.env.REACT_APP_AVAILABILITY_ENABLED;
 const dev = process.env.REACT_APP_ENV === 'development';
 
 // If you want to change the language, remember to also change the
